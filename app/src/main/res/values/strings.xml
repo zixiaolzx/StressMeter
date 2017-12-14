@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StreeMeter2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="results_title">A graph showing your Stress Levels</string>;
+    <string name="results_summary">Summary of Results</string>
+    <string name="stress_about">Touch the image that best captures how stressed you feel right now</string>
+    <string name="stree_more_images">MORE IMAGES</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+</resources>

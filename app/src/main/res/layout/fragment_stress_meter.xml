@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/stress_about"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="68dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <GridView
+        android:id = "@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/stree_more_images"
+        android:layout_marginTop="30dp"
+        android:onClick="moreImageClicked"
+        android:id="@+id/more_Image"/>
+</LinearLayout>
